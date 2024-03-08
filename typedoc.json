@@ -1,0 +1,4 @@
+{
+    "entryPoints": ["./src/basicFunctions.ts", "./src/ejercicio-modi.ts"],
+    "out": "./docs"
+}
