@@ -25,7 +25,7 @@
     "prettier": "^3.2.5",
     "ts-node": "^10.9.2",
     "tsc-watch": "^6.0.4",
-    "typedoc": "^0.25.11",
-    "typescript": "^5.4.2"
+    "typedoc": "^0.25.9",
+    "typescript": "5.3"
   }
 }
