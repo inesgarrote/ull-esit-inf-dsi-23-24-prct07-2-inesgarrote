@@ -1,4 +1,4 @@
-import { Noticia } from './noticia';
+import { Noticia } from './noticia.js';
 
 /**
  * Interface for observable classes

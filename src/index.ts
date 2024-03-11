@@ -7,10 +7,10 @@ Todo el código fuente deberá ser desarrollado haciendo uso de módulos ESM, en
 
 
 
-import { Noticia } from './noticia';
-import { Observable, Observador } from './observer';
-import { Suscriptor } from './suscriptor';
-import { Canal } from './canal';
+import { Noticia } from './noticia.js';
+import { Observable, Observador } from './observer.js';
+import { Suscriptor } from './suscriptor.js';
+import { Canal } from './canal.js';
 
 
 

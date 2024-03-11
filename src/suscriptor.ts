@@ -1,4 +1,4 @@
-import { Observador, Observable } from "./observer";
+import { Observador, Observable } from "./observer.js";
 /**
  * Class for Suscriptor
  */

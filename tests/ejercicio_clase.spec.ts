@@ -1,13 +1,16 @@
 import "mocha";
 import { expect } from "chai";
-import { Canal } from "../src/canal";
-import { Noticia } from "../src/noticia";
-import { Suscriptor } from "../src/suscriptor";
+import { Canal } from "../src/canal.js";
+import { Noticia } from "../src/noticia.js";
+import { Suscriptor } from "../src/suscriptor.js";
 
 describe('Tests for class Noticia', () => {
-    it('Noticia has a title and a body', () => {
+    it('Noticia has a title', () => {
         const noticia = new Noticia('title', 'body');
         expect(noticia.getTitulo()).to.be.equal('title');
+    });
+    it('Noticia has a body', () => {
+        const noticia = new Noticia('title', 'body');
         expect(noticia.getContenido()).to.be.equal('body');
     });
     });

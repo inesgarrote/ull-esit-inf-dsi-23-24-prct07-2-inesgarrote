@@ -1,5 +1,5 @@
-import { Noticia } from './noticia';
-import { Observable, Observador } from './observer';
+import { Noticia } from './noticia.js';
+import { Observable, Observador } from './observer.js';
 /**
  * Class for Canal
  */
