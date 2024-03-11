@@ -1,6 +1,6 @@
 import { Observador, Observable } from "./observer.js";
 /**
- * Class for Suscriptor
+ * @brief Class for Suscriptor
  */
 export class Suscriptor implements Observador {
     private _nombre: string;

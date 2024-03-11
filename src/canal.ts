@@ -1,7 +1,7 @@
 import { Noticia } from './noticia.js';
 import { Observable, Observador } from './observer.js';
 /**
- * Class for Canal
+ * @brief Class for Canal
  */
 export class Canal implements Observable {
     private _noticias: Noticia[] = [];

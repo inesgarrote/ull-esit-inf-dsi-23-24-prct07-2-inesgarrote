@@ -1,5 +1,5 @@
 /**
- * Class for Noticia
+ * @brief Class for Noticia
  */
 export class Noticia {
     private _titulo: string;
