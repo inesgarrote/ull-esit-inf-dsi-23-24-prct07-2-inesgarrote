@@ -5,6 +5,6 @@
     "./src/noticia.ts",
     "./src/observer.ts",
     "./src/suscriptor.ts"
-],
+  ],
   "out": "./docs"
 }

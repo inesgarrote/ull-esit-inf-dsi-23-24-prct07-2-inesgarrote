@@ -5,27 +5,22 @@ Todo el código fuente deberá ser desarrollado haciendo uso de módulos ESM, en
 
 */
 
-
-
-import { Noticia } from './noticia.js';
-import { Observable, Observador } from './observer.js';
-import { Suscriptor } from './suscriptor.js';
-import { Canal } from './canal.js';
-
-
-
+import { Noticia } from "./noticia.js";
+import { Observable, Observador } from "./observer.js";
+import { Suscriptor } from "./suscriptor.js";
+import { Canal } from "./canal.js";
 
 // Ejemplo de uso
 const canalDSI = new Canal();
-const suscriptor1 = new Suscriptor('Juan');
-const suscriptor2 = new Suscriptor('Pepe');
-const suscriptor3 = new Suscriptor('Ana');
+const suscriptor1 = new Suscriptor("Juan");
+const suscriptor2 = new Suscriptor("Pepe");
+const suscriptor3 = new Suscriptor("Ana");
 
 canalDSI.registrar(suscriptor1);
 canalDSI.registrar(suscriptor2);
 canalDSI.registrar(suscriptor3);
 
-canalDSI.notificar(new Noticia('Examen DSI', 'El examen será el 15 de junio'));
-canalDSI.notificar(new Noticia('Entrega práctica', 'La entrega será el 30 de mayo'));
-
-
+canalDSI.notificar(new Noticia("Examen DSI", "El examen será el 15 de junio"));
+canalDSI.notificar(
+  new Noticia("Entrega práctica", "La entrega será el 30 de mayo"),
+);
